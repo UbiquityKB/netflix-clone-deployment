@@ -35,7 +35,7 @@ const Navbar = () => {
 
     const toggleAccountMenu = useCallback(() => {
         setShowAccountMenu((current) => !current);
-    })
+    }, [])
 
     const toggleShake = () => {
         setIsShaking(true);
